@@ -2,7 +2,7 @@
 
 ### Specs (Physically inspected):
   - CPU: Cortex-A9 (Little endian, Dual Core)
-  - Codename: LOGANDS
+  - Codename: LOGANDSDTV
   - Display Panel:  (TFT)
   - Display Resolution: 480x800 (240dpi)
   - EMMC: 4GB (Usable ~2.2GB)
