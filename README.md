@@ -22,3 +22,7 @@
 ### Notice:
   - Apply patch *patch.diff* to root directory of source code before build
   - patch -p1 device/samsung/logands/patch/patch.diff
+  
+### contribuições 
+  - ZIM555
+  - Wesley09
