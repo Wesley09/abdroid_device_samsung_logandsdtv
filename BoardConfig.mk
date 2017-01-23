@@ -23,7 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := logandsdtv,S7273T,GT-S7273T,hawaii
 # Kernel
 BOARD_KERNEL_BASE := 0x82000000
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_logandsdtv_rev01_cm_defconfig
+TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_logands_rev01_cm_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/loganxx
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
 
