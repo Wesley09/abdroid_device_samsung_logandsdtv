@@ -11,7 +11,7 @@
   - Misc: WIFI/Tether, Bluetooth, HSPA, GPS, FM-Radio, Dual SIM
   - PMU: BCM59054
   - Platform: HAWAII (BROADCOM)
-  - RAM: 768MB (not shared with GPU)
+  - RAM: 902MB (not shared with GPU)
   - Sensor: Accelerometer (BMC150), Compass (BMC150), Proximity (GP2AP002)
   - Shipped with Android 4.2.2
   - SoC: BCM21664G (1.0GHz)
@@ -21,7 +21,7 @@
   
 ### Notice:
   - Apply patch *patch.diff* to root directory of source code before build
-  - patch -p1 device/samsung/logands/patch/patch.diff
+  - patch -p1 device/samsung/logandsdtv/patch/patch.diff
   
 ### contribuições 
   - ZIM555
