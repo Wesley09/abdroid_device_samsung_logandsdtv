@@ -26,3 +26,10 @@
 ### contribuições 
   - ZIM555
   - Wesley09
+  
+### Compile comads:
+   - source build/envsetup.sh
+   - lunch lineage_logandsdtv-userdebug
+   - make otapackage -j#
+   - cd out/target/product/logandsdtv/
+   - mv lineage_logandsdtv*.zip lineage-14.1-$(date +%Y%m%d)-UNOFFICIAL-logandsdtv.zip
