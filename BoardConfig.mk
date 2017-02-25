@@ -21,8 +21,13 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 TARGET_OTA_ASSERT_DEVICE := logandsdtv,S7273T,GT-S7273T,hawaii
 
 # Kernel
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_BASE := 0x82000000
+BOARD_KERNEL_CMDLINE := console=ttyS2,115200n8 mem=992M cma0=192M carveout0=64M vmalloc=136M androidboot.console=ttyS2 logbuf_nocache=1 sec_debug.reset_reason=0x1A2B3C00 sec_debug.level=0 androidboot.debug_level=0x4f4c loglevel=0 sec_log=0x100000@0xbed00000 lpcharge=0 cordon=7a46d49151a5da1db0c8892a5d6f309d androidboot.emmc_checksum=3 brd_ver=1 androidboot.serialno=4d05dc636e179000
 BOARD_KERNEL_PAGESIZE := 4096
+BOARD_KERNEL_OFFSET := 0x00008000
+BOARD_RAMDISK_OFFSET := 0x01000000
+BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_logands_rev01_cm_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/loganxx
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
