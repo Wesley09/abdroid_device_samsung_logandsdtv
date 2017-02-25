@@ -27,7 +27,7 @@
   - ZIM555
   - Wesley09
   
-### Compile comads:
+### Compile comands:
    - source build/envsetup.sh
    - lunch lineage_logandsdtv-userdebug
    - make otapackage -j#
