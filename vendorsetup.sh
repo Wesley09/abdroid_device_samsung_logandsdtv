@@ -1,3 +1,3 @@
 for i in eng userdebug user; do
-	add_lunch_combo cm_logandsdtv-${i}
+	add_lunch_combo lineage_logandsdtv-${i}
 done

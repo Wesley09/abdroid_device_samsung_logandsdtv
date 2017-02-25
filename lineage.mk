@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/logandsdtv/device_logandsdtv.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := logandsdtv
-PRODUCT_NAME := cm_logandsdtv
+PRODUCT_NAME := lineage_logandsdtv
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-S7273T
